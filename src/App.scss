@@ -1,0 +1,21 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  background: #f9f9f9;
+
+  .app-header {
+    padding: 0 200px 5px 200px;
+  }
+
+  .app-logo {
+    height: 20vmin;
+    pointer-events: none;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .app-header,
+    .resource-page {
+      padding: 0 5px 5px 5px;
+    }
+  }
+}

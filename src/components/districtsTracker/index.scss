@@ -1,0 +1,46 @@
+.resource-page {
+  font-family: sans-serif;
+  text-align: left;
+  display: block;
+  background: #f9f9f9;
+  padding: 0 200px 5px 200px;
+
+  .filtration {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+
+    .filter-label {
+      font-weight: bold;
+      .required {
+        color: red;
+      }
+    }
+
+    .filter-group {
+      display: inline-table;
+      margin-bottom: 10px;
+      margin-right: 5px;
+
+      .tooltip-icon {
+        color: #1890ff;
+        margin-left: 2px;
+        vertical-align: top;
+      }
+
+      .filter-field {
+        min-width: 200px;
+      }
+    }
+
+    .button-col {
+      min-width: 100px;
+      margin-top: 10px;
+      align-self: center;
+    }
+  }
+
+  table tr:nth-child(2n) td {
+    background-color: #f9f9f9;
+  }
+}
